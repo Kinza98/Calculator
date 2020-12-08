@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-
+//calculator screen
 function Screen(props) {
     const {value} = props
     return (
@@ -10,7 +10,7 @@ function Screen(props) {
     )
 }
 
-
+//main keyboard
 function Keyboard(props) {
     const {handleKeys, handleResult} = props;
     return (
